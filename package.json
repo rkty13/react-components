@@ -6,16 +6,23 @@
   "devDependencies": {
     "@storybook/react": "^3.4.5",
     "babel-core": "^6.26.3",
+    "babel-jest": "^23.0.0",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
     "babel-preset-react": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
     "eslint-plugin-react": "^7.8.2",
+    "flow-bin": "^0.73.0",
+    "jest": "^23.0.0",
     "node-sass": "^4.9.0",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "regenerator-runtime": "^0.11.1",
     "sass-loader": "^7.0.1",
     "style-loader": "^0.21.0",
     "webpack": "^4.9.1",
@@ -24,6 +31,16 @@
   "scripts": {
     "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack",
-    "lint": "eslint 'src/**/*.js' 'src/**/*.jsx'"
+    "lint": "eslint 'src/**/*.js' 'src/**/*.jsx'",
+    "test": "jest"
+  },
+  "jest": {
+    "rootDir": "./src/",
+    "setupFiles": [
+      "<rootDir>/../scripts/setupTests.js"
+    ]
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.0"
   }
 }

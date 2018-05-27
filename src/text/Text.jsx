@@ -1,6 +1,6 @@
-import React from 'react';
+// @flow
 
-import "./_text.scss";
+import React from 'react';
 
 const Text = () => (
   <p className="rc-text">hello</p>

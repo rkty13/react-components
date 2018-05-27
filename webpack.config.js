@@ -2,11 +2,11 @@ const path = require('path');
 
 const devMode = process.env.NODE_ENV !== 'production';
 
-const srcDir = path.join(__dirname, './src/');
+const srcDir = path.resolve(__dirname, './src/');
 
 module.exports = {
   mode: devMode ? 'development' : 'production',
-  entry: [path.join(srcDir, 'index.js')],
+  entry: [path.resolve(srcDir, 'index.js')],
   resolve: {
     extensions: ['.js', '.jsx']
   },
