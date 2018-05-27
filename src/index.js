@@ -1,6 +1,6 @@
 import Text from './text/Text';
 
-import './main.scss';
+import './styles/main.scss';
 
 export {
   Text
