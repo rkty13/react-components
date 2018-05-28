@@ -1,0 +1,16 @@
+@import '~normalize.css/normalize.css';
+@import 'constants';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $baseFontSize;
+}
+
+// Components
+@import 'components/text/text';
+
+// Containers
+@import 'containers/pageLayout/page_layout';

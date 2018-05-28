@@ -1,0 +1,17 @@
+.rc-page-layout {
+  margin: 4rem 2rem 4rem;
+  min-height: 100vh;
+
+  &--no-sides {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  &--no-top {
+    margin-top: 0;
+  }
+
+  &--no-bottom {
+    margin-bottom: 0;
+  }
+}

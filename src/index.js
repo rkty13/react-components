@@ -1,7 +1,10 @@
-import Text from './text/Text';
+import Text from './components/text/Text';
 
-import './styles/main.scss';
+import PageLayout from './containers/pageLayout/PageLayout';
+
+import './main.scss';
 
 export {
-  Text
+  Text,
+  PageLayout
 };
