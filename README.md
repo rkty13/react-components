@@ -1,4 +1,4 @@
-# react-components
+# react-components [![Build Status](https://travis-ci.com/rkty13/react-components.svg?branch=master)](https://travis-ci.com/rkty13/react-components)
 
 Personal project for a UI framework using React. The most common UI components will be included in this library. And yes, I need a better name for this.
 
