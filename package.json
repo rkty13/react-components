@@ -35,10 +35,10 @@
     "webpack-cli": "^2.1.4"
   },
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook",
     "lint": "eslint 'src/**/*.js' 'src/**/*.jsx'",
-    "test": "jest --coverage",
     "typecheck": "flow",
+    "test": "jest --coverage",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "build": "webpack"
   },
   "jest": {
