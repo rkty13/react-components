@@ -35,6 +35,7 @@
     "storybook": "start-storybook -p 9001 -c .storybook",
     "lint": "eslint 'src/**/*.js' 'src/**/*.jsx'",
     "test": "jest --coverage",
+    "typecheck": "flow",
     "build": "webpack"
   },
   "jest": {
